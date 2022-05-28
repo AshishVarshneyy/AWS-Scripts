@@ -1,0 +1,12 @@
+prod:
+  Total_Instance: 2
+  AWS_ACCESS_ID: "xxxxxxxxxx"
+  AWS_SECRET_KEY: "x/xxxxxx"
+  ImageId: "ami-785db401"
+  KeyName: ".xx"
+  InstanceType: "t2.micro"
+  MinCount: 1
+  MaxCount: 1
+  SubnetId: "subnet-xxxxx" 
+  SecurityGroupIds: ["sg-xxxxxx"]
+  userData: 'EC2\userdata.sh' 
